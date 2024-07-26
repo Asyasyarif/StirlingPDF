@@ -1,10 +1,14 @@
-version: '3.3'
+version: "3.3"
 services:
   stirling-pdf:
     container_name: Stirling-PDF
     image: frooodle/s-pdf:latest
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/v1/info/status | grep -q 'UP' && curl -fL http://localhost:8080/ | grep -qv 'Please sign in'"]
+      test:
+        [
+          "CMD-SHELL",
+          "curl -f http://localhost:8080/api/v1/info/status | grep -q 'UP' && curl -fL http://localhost:8080/ | grep -qv 'Please sign in'",
+        ]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -15,9 +19,9 @@ services:
     environment:
       - DOCKER_ENABLE_SECURITY=true
       - INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false
-      - UI_APP_NAME=PDF Tools
-      - UI_HOME_DESCRIPTION=Tools PDF
-      - UI_APP_NAVBAR_NAME=Stirling PDF
+      - UI_APP_NAME=My PDF Tools
+      - UI_HOME_DESCRIPTION=Tools PDF Untuk Pribadi
+      - UI_APP_NAVBAR_NAME=My PDF Tools
       - LANGS=en_US
     networks:
       - stirling-net
