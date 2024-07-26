@@ -1,6 +1,7 @@
 version: "3.3"
 services:
   stirling-pdf:
+    restart: always
     container_name: Stirling-PDF
     image: frooodle/s-pdf:latest
     healthcheck:
@@ -28,6 +29,7 @@ services:
 
   nginx:
     image: nginx:latest
+    restart: always
     ports:
       - "8092:80"
     volumes:
