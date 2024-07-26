@@ -1,0 +1,38 @@
+version: '3.3'
+services:
+  stirling-pdf:
+    container_name: Stirling-PDF
+    image: frooodle/s-pdf:latest
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/v1/info/status | grep -q 'UP' && curl -fL http://localhost:8080/ | grep -qv 'Please sign in'"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    volumes:
+      - ./trainingData:/usr/share/tessdata
+      - ./extraConfigs:/configs
+      - ./logs:/logs/
+    environment:
+      - DOCKER_ENABLE_SECURITY=true
+      - INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false
+      - UI_APP_NAME=PDF Tools
+      - UI_HOME_DESCRIPTION=Tools PDF
+      - UI_APP_NAVBAR_NAME=Stirling PDF
+      - LANGS=en_US
+    networks:
+      - stirling-net
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8092:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - stirling-pdf
+    networks:
+      - stirling-net
+
+networks:
+  stirling-net:
+    driver: bridge

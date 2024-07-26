@@ -1,0 +1,167 @@
+2024-07-25 11:31:28,736 WARN s.s.S.SPdfApplication [main] External configuration file 'configs/settings.yml' does not exist. Using default configuration and environment configuration instead.
+2024-07-25 11:31:28,742 WARN s.s.S.SPdfApplication [main] Custom configuration file 'configs/custom_settings.yml' does not exist.
+2024-07-25 11:31:29,097 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication v0.26.1 using Java 21.0.3 with PID 11 (/app.jar started by root in /)
+2024-07-25 11:31:29,098 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-25 11:31:30,342 INFO o.s.b.w.e.j.JettyServletWebServerFactory [main] Server initialized with port: 8080
+2024-07-25 11:31:30,351 INFO o.e.j.s.Server [main] jetty-12.0.7; built: 2024-02-29T21:19:41.771Z; git: c89aca8fd34083befd79f328a3b8b6ffff04347e; jvm 21.0.3+9-alpine-r0
+2024-07-25 11:31:30,404 INFO o.e.j.s.h.C.application [main] Initializing Spring embedded WebApplicationContext
+2024-07-25 11:31:30,404 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1245 ms
+2024-07-25 11:31:30,558 INFO o.e.j.s.DefaultSessionIdManager [main] Session workerName=node0
+2024-07-25 11:31:30,569 INFO o.e.j.s.h.ContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@25a5c8e{application,/,b=[file:/tmp/jetty-docbase.8080.2273467695498672796/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@7911cc15{STARTED}}
+2024-07-25 11:31:30,569 INFO o.e.j.e.s.ServletContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@25a5c8e{application,/,b=[file:/tmp/jetty-docbase.8080.2273467695498672796/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@7911cc15{STARTED}}
+2024-07-25 11:31:30,577 INFO o.e.j.s.Server [main] Started oejs.Server@2abafa97{STARTING}[12.0.7,sto=0] @2651ms
+2024-07-25 11:31:30,649 INFO s.s.S.SPdfApplication [main] Running configs ApplicationProperties [security=Security [enableLogin=false, oauth2=null, initialLogin=null, csrfDisabled=true], system=System [defaultLocale=en-US, googlevisibility=false, enableAlphaFunctionality=false, showUpdate=false, showUpdateOnlyAdmin=false], ui=UserInterface [appName=PDF Tools, homeDescription=Tools PDF, appNameNavbar=], endpoints=Endpoints [toRemove=[], groupsToRemove=[]], metrics=Metrics [enabled=true], automaticallyGenerated=AutomaticallyGenerated [key=MASKED], autoPipeline=null]
+2024-07-25 11:31:30,942 INFO s.s.S.c.EndpointConfiguration [main] Disabling pdf-to-book
+2024-07-25 11:31:30,942 INFO s.s.S.c.EndpointConfiguration [main] Disabling book-to-pdf
+2024-07-25 11:31:31,006 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2024-07-25 11:31:31,241 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 11:31:31,264 INFO o.e.j.s.h.C.application [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25 11:31:31,265 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'dispatcherServlet'
+2024-07-25 11:31:31,266 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 1 ms
+2024-07-25 11:31:31,277 INFO o.e.j.s.AbstractConnector [main] Started ServerConnector@172b6cc7{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-25 11:31:31,278 INFO o.s.b.w.e.j.JettyWebServer [main] Jetty started on port 8080 (http/1.1) with context path '/'
+2024-07-25 11:31:31,313 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 2.57 seconds (process running for 3.387)
+2024-07-25 11:31:31,319 WARN s.s.S.u.FileMonitor [scheduling-1] not monitoring any directory, even the root directory itself: ./pipeline/watchedFolders
+2024-07-25 11:31:31,320 INFO s.s.S.u.FileMonitor [scheduling-1] Registered directory: ./pipeline/watchedFolders
+2024-07-25 11:31:32,320 INFO s.s.S.SPdfApplication [main] Stirling-PDF Started.
+2024-07-25 11:31:32,325 INFO s.s.S.SPdfApplication [main] Navigate to http://localhost:8080
+2024-07-25 11:46:13,901 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication v0.26.1 using Java 21.0.3 with PID 10 (/app.jar started by root in /)
+2024-07-25 11:46:13,902 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-25 11:46:15,200 INFO o.s.b.w.e.j.JettyServletWebServerFactory [main] Server initialized with port: 8080
+2024-07-25 11:46:15,208 INFO o.e.j.s.Server [main] jetty-12.0.7; built: 2024-02-29T21:19:41.771Z; git: c89aca8fd34083befd79f328a3b8b6ffff04347e; jvm 21.0.3+9-alpine-r0
+2024-07-25 11:46:15,244 INFO o.e.j.s.h.C.application [main] Initializing Spring embedded WebApplicationContext
+2024-07-25 11:46:15,246 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1297 ms
+2024-07-25 11:46:15,338 INFO o.e.j.s.DefaultSessionIdManager [main] Session workerName=node0
+2024-07-25 11:46:15,342 INFO o.e.j.s.h.ContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@7f2b584b{application,/,b=[file:/tmp/jetty-docbase.8080.4052414508082120370/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@56a05324{STARTED}}
+2024-07-25 11:46:15,342 INFO o.e.j.e.s.ServletContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@7f2b584b{application,/,b=[file:/tmp/jetty-docbase.8080.4052414508082120370/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@56a05324{STARTED}}
+2024-07-25 11:46:15,348 INFO o.e.j.s.Server [main] Started oejs.Server@22a260ff{STARTING}[12.0.7,sto=0] @2560ms
+2024-07-25 11:46:15,363 INFO s.s.S.SPdfApplication [main] Running configs ApplicationProperties [security=Security [enableLogin=false, oauth2=null, initialLogin=null, csrfDisabled=true], system=System [defaultLocale=en-US, googlevisibility=false, enableAlphaFunctionality=false, showUpdate=false, showUpdateOnlyAdmin=false], ui=UserInterface [appName=PDF Tools, homeDescription=Tools PDF, appNameNavbar=], endpoints=Endpoints [toRemove=[], groupsToRemove=[]], metrics=Metrics [enabled=true], automaticallyGenerated=AutomaticallyGenerated [key=MASKED], autoPipeline=null]
+2024-07-25 11:46:15,746 INFO s.s.S.c.EndpointConfiguration [main] Disabling pdf-to-book
+2024-07-25 11:46:15,747 INFO s.s.S.c.EndpointConfiguration [main] Disabling book-to-pdf
+2024-07-25 11:46:15,836 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2024-07-25 11:46:16,201 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 11:46:16,236 INFO o.e.j.s.h.C.application [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25 11:46:16,236 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'dispatcherServlet'
+2024-07-25 11:46:16,237 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 0 ms
+2024-07-25 11:46:16,258 INFO o.e.j.s.AbstractConnector [main] Started ServerConnector@e5374cb{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-25 11:46:16,260 INFO o.s.b.w.e.j.JettyWebServer [main] Jetty started on port 8080 (http/1.1) with context path '/'
+2024-07-25 11:46:16,273 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 2.733 seconds (process running for 3.485)
+2024-07-25 11:46:16,284 WARN s.s.S.u.FileMonitor [scheduling-1] not monitoring any directory, even the root directory itself: ./pipeline/watchedFolders
+2024-07-25 11:46:16,285 INFO s.s.S.u.FileMonitor [scheduling-1] Registered directory: ./pipeline/watchedFolders
+2024-07-25 11:46:17,290 INFO s.s.S.SPdfApplication [main] Stirling-PDF Started.
+2024-07-25 11:46:17,292 INFO s.s.S.SPdfApplication [main] Navigate to http://localhost:8080
+2024-07-25 11:49:52,639 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication v0.26.1 using Java 21.0.3 with PID 9 (/app.jar started by root in /)
+2024-07-25 11:49:52,641 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-25 11:49:53,821 INFO o.s.b.w.e.j.JettyServletWebServerFactory [main] Server initialized with port: 8080
+2024-07-25 11:49:53,826 INFO o.e.j.s.Server [main] jetty-12.0.7; built: 2024-02-29T21:19:41.771Z; git: c89aca8fd34083befd79f328a3b8b6ffff04347e; jvm 21.0.3+9-alpine-r0
+2024-07-25 11:49:53,846 INFO o.e.j.s.h.C.application [main] Initializing Spring embedded WebApplicationContext
+2024-07-25 11:49:53,847 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1123 ms
+2024-07-25 11:49:53,943 INFO o.e.j.s.DefaultSessionIdManager [main] Session workerName=node0
+2024-07-25 11:49:53,947 INFO o.e.j.s.h.ContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@9785903{application,/,b=[file:/tmp/jetty-docbase.8080.79815587806236357/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@3f68a7f8{STARTED}}
+2024-07-25 11:49:53,948 INFO o.e.j.e.s.ServletContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@9785903{application,/,b=[file:/tmp/jetty-docbase.8080.79815587806236357/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@3f68a7f8{STARTED}}
+2024-07-25 11:49:53,953 INFO o.e.j.s.Server [main] Started oejs.Server@4776e209{STARTING}[12.0.7,sto=0] @2297ms
+2024-07-25 11:49:53,981 INFO s.s.S.SPdfApplication [main] Running configs ApplicationProperties [security=Security [enableLogin=false, oauth2=null, initialLogin=null, csrfDisabled=true], system=System [defaultLocale=en-US, googlevisibility=false, enableAlphaFunctionality=false, showUpdate=false, showUpdateOnlyAdmin=false], ui=UserInterface [appName=PDF Tools, homeDescription=Tools PDF, appNameNavbar=], endpoints=Endpoints [toRemove=[], groupsToRemove=[]], metrics=Metrics [enabled=true], automaticallyGenerated=AutomaticallyGenerated [key=MASKED], autoPipeline=null]
+2024-07-25 11:49:54,272 INFO s.s.S.c.EndpointConfiguration [main] Disabling pdf-to-book
+2024-07-25 11:49:54,272 INFO s.s.S.c.EndpointConfiguration [main] Disabling book-to-pdf
+2024-07-25 11:49:54,343 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2024-07-25 11:49:54,615 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 11:49:54,666 INFO o.e.j.s.h.C.application [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25 11:49:54,666 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'dispatcherServlet'
+2024-07-25 11:49:54,668 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 2 ms
+2024-07-25 11:49:54,676 INFO o.e.j.s.AbstractConnector [main] Started ServerConnector@6fcff741{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-25 11:49:54,677 INFO o.s.b.w.e.j.JettyWebServer [main] Jetty started on port 8080 (http/1.1) with context path '/'
+2024-07-25 11:49:54,694 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 2.547 seconds (process running for 3.038)
+2024-07-25 11:49:54,703 WARN s.s.S.u.FileMonitor [scheduling-1] not monitoring any directory, even the root directory itself: ./pipeline/watchedFolders
+2024-07-25 11:49:54,703 INFO s.s.S.u.FileMonitor [scheduling-1] Registered directory: ./pipeline/watchedFolders
+2024-07-25 11:49:55,706 INFO s.s.S.SPdfApplication [main] Stirling-PDF Started.
+2024-07-25 11:49:55,711 INFO s.s.S.SPdfApplication [main] Navigate to http://localhost:8080
+2024-07-25 11:56:01,614 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication v0.26.1 using Java 21.0.3 with PID 10 (/app.jar started by root in /)
+2024-07-25 11:56:01,617 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-25 11:56:02,720 INFO o.s.b.w.e.j.JettyServletWebServerFactory [main] Server initialized with port: 8080
+2024-07-25 11:56:02,729 INFO o.e.j.s.Server [main] jetty-12.0.7; built: 2024-02-29T21:19:41.771Z; git: c89aca8fd34083befd79f328a3b8b6ffff04347e; jvm 21.0.3+9-alpine-r0
+2024-07-25 11:56:02,746 INFO o.e.j.s.h.C.application [main] Initializing Spring embedded WebApplicationContext
+2024-07-25 11:56:02,747 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1086 ms
+2024-07-25 11:56:02,850 INFO o.e.j.s.DefaultSessionIdManager [main] Session workerName=node0
+2024-07-25 11:56:02,854 INFO o.e.j.s.h.ContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@7f2b584b{application,/,b=[file:/tmp/jetty-docbase.8080.116887618106103526/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@56a05324{STARTED}}
+2024-07-25 11:56:02,855 INFO o.e.j.e.s.ServletContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@7f2b584b{application,/,b=[file:/tmp/jetty-docbase.8080.116887618106103526/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@56a05324{STARTED}}
+2024-07-25 11:56:02,860 INFO o.e.j.s.Server [main] Started oejs.Server@22a260ff{STARTING}[12.0.7,sto=0] @2061ms
+2024-07-25 11:56:02,875 INFO s.s.S.SPdfApplication [main] Running configs ApplicationProperties [security=Security [enableLogin=false, oauth2=null, initialLogin=null, csrfDisabled=true], system=System [defaultLocale=en-US, googlevisibility=false, enableAlphaFunctionality=false, showUpdate=false, showUpdateOnlyAdmin=false], ui=UserInterface [appName=PDF Tools, homeDescription=Tools PDF, appNameNavbar=], endpoints=Endpoints [toRemove=[], groupsToRemove=[]], metrics=Metrics [enabled=true], automaticallyGenerated=AutomaticallyGenerated [key=MASKED], autoPipeline=null]
+2024-07-25 11:56:03,139 INFO s.s.S.c.EndpointConfiguration [main] Disabling pdf-to-book
+2024-07-25 11:56:03,140 INFO s.s.S.c.EndpointConfiguration [main] Disabling book-to-pdf
+2024-07-25 11:56:03,245 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2024-07-25 11:56:03,557 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 11:56:03,586 INFO o.e.j.s.h.C.application [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25 11:56:03,587 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'dispatcherServlet'
+2024-07-25 11:56:03,588 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 1 ms
+2024-07-25 11:56:03,595 INFO o.e.j.s.AbstractConnector [main] Started ServerConnector@4b5fbe9e{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-25 11:56:03,596 INFO o.s.b.w.e.j.JettyWebServer [main] Jetty started on port 8080 (http/1.1) with context path '/'
+2024-07-25 11:56:03,613 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 2.394 seconds (process running for 2.814)
+2024-07-25 11:56:03,626 WARN s.s.S.u.FileMonitor [scheduling-1] not monitoring any directory, even the root directory itself: ./pipeline/watchedFolders
+2024-07-25 11:56:03,626 INFO s.s.S.u.FileMonitor [scheduling-1] Registered directory: ./pipeline/watchedFolders
+2024-07-25 11:56:04,627 INFO s.s.S.SPdfApplication [main] Stirling-PDF Started.
+2024-07-25 11:56:04,632 INFO s.s.S.SPdfApplication [main] Navigate to http://localhost:8080
+2024-07-25 11:57:45,987 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication v0.26.1 using Java 21.0.3 with PID 10 (/app.jar started by root in /)
+2024-07-25 11:57:45,989 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-25 11:57:47,718 INFO o.s.b.w.e.j.JettyServletWebServerFactory [main] Server initialized with port: 8080
+2024-07-25 11:57:47,729 INFO o.e.j.s.Server [main] jetty-12.0.7; built: 2024-02-29T21:19:41.771Z; git: c89aca8fd34083befd79f328a3b8b6ffff04347e; jvm 21.0.3+9-alpine-r0
+2024-07-25 11:57:47,773 INFO o.e.j.s.h.C.application [main] Initializing Spring embedded WebApplicationContext
+2024-07-25 11:57:47,774 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1745 ms
+2024-07-25 11:57:47,876 INFO o.e.j.s.DefaultSessionIdManager [main] Session workerName=node0
+2024-07-25 11:57:47,883 INFO o.e.j.s.h.ContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@7f2b584b{application,/,b=[file:/tmp/jetty-docbase.8080.185907091336657525/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@56a05324{STARTED}}
+2024-07-25 11:57:47,884 INFO o.e.j.e.s.ServletContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@7f2b584b{application,/,b=[file:/tmp/jetty-docbase.8080.185907091336657525/, URLResource@BA730246(jar:nested:///app.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@56a05324{STARTED}}
+2024-07-25 11:57:47,889 INFO o.e.j.s.Server [main] Started oejs.Server@22a260ff{STARTING}[12.0.7,sto=0] @2994ms
+2024-07-25 11:57:47,909 INFO s.s.S.SPdfApplication [main] Running configs ApplicationProperties [security=Security [enableLogin=false, oauth2=null, initialLogin=null, csrfDisabled=true], system=System [defaultLocale=en-US, googlevisibility=false, enableAlphaFunctionality=false, showUpdate=false, showUpdateOnlyAdmin=false], ui=UserInterface [appName=PDF Tools, homeDescription=Tools PDF, appNameNavbar=], endpoints=Endpoints [toRemove=[], groupsToRemove=[]], metrics=Metrics [enabled=true], automaticallyGenerated=AutomaticallyGenerated [key=MASKED], autoPipeline=null]
+2024-07-25 11:57:48,134 INFO s.s.S.c.EndpointConfiguration [main] Disabling pdf-to-book
+2024-07-25 11:57:48,135 INFO s.s.S.c.EndpointConfiguration [main] Disabling book-to-pdf
+2024-07-25 11:57:48,317 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2024-07-25 11:57:49,048 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 11:57:49,123 INFO o.e.j.s.h.C.application [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25 11:57:49,125 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'dispatcherServlet'
+2024-07-25 11:57:49,127 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 2 ms
+2024-07-25 11:57:49,145 INFO o.e.j.s.AbstractConnector [main] Started ServerConnector@727956bb{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-25 11:57:49,148 INFO o.s.b.w.e.j.JettyWebServer [main] Jetty started on port 8080 (http/1.1) with context path '/'
+2024-07-25 11:57:49,164 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 3.546 seconds (process running for 4.269)
+2024-07-25 11:57:49,174 WARN s.s.S.u.FileMonitor [scheduling-1] not monitoring any directory, even the root directory itself: ./pipeline/watchedFolders
+2024-07-25 11:57:49,175 INFO s.s.S.u.FileMonitor [scheduling-1] Registered directory: ./pipeline/watchedFolders
+2024-07-25 11:57:50,176 INFO s.s.S.SPdfApplication [main] Stirling-PDF Started.
+2024-07-25 11:57:50,179 INFO s.s.S.SPdfApplication [main] Navigate to http://localhost:8080
+2024-07-25 12:00:24,658 INFO s.s.S.SPdfApplication [main] Starting SPdfApplication v0.26.1 using Java 21.0.3 with PID 10 (/app-security.jar started by root in /)
+2024-07-25 12:00:24,659 INFO s.s.S.SPdfApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-07-25 12:00:25,498 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-25 12:00:25,595 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91 ms. Found 3 JPA repository interfaces.
+2024-07-25 12:00:26,947 INFO o.s.b.w.e.j.JettyServletWebServerFactory [main] Server initialized with port: 8080
+2024-07-25 12:00:26,964 INFO o.e.j.s.Server [main] jetty-12.0.7; built: 2024-02-29T21:19:41.771Z; git: c89aca8fd34083befd79f328a3b8b6ffff04347e; jvm 21.0.3+9-alpine-r0
+2024-07-25 12:00:27,000 INFO o.e.j.s.h.C.application [main] Initializing Spring embedded WebApplicationContext
+2024-07-25 12:00:27,002 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2292 ms
+2024-07-25 12:00:27,256 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-25 12:00:27,351 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-07-25 12:00:27,405 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-07-25 12:00:27,643 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-25 12:00:27,679 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-07-25 12:00:27,852 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./configs/stirling-pdf-DB user=SA
+2024-07-25 12:00:27,854 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-07-25 12:00:28,830 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-25 12:00:28,919 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-25 12:00:29,288 INFO o.e.j.s.DefaultSessionIdManager [main] Session workerName=node0
+2024-07-25 12:00:29,292 INFO o.e.j.s.h.ContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@34c79268{application,/,b=[file:/tmp/jetty-docbase.8080.3924413928955240725/, URLResource@E78D3329(jar:nested:///app-security.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@6e6c723b{STARTED}}
+2024-07-25 12:00:29,293 INFO o.e.j.e.s.ServletContextHandler [main] Started osbwej.JettyEmbeddedWebAppContext@34c79268{application,/,b=[file:/tmp/jetty-docbase.8080.3924413928955240725/, URLResource@E78D3329(jar:nested:///app-security.jar/!BOOT-INF/lib/swagger-ui-5.2.0.jar!/META-INF/resources/)],a=AVAILABLE,h=oeje10s.SessionHandler@6e6c723b{STARTED}}
+2024-07-25 12:00:29,303 INFO o.e.j.s.Server [main] Started oejs.Server@7e1d8d41{STARTING}[12.0.7,sto=0] @5518ms
+2024-07-25 12:00:29,309 INFO s.s.S.SPdfApplication [main] Running configs ApplicationProperties [security=Security [enableLogin=false, oauth2=null, initialLogin=null, csrfDisabled=true], system=System [defaultLocale=en-US, googlevisibility=false, enableAlphaFunctionality=false, showUpdate=false, showUpdateOnlyAdmin=false], ui=UserInterface [appName=PDF Tools, homeDescription=Tools PDF, appNameNavbar=], endpoints=Endpoints [toRemove=[], groupsToRemove=[]], metrics=Metrics [enabled=true], automaticallyGenerated=AutomaticallyGenerated [key=MASKED], autoPipeline=null]
+2024-07-25 12:00:29,818 INFO s.s.S.c.EndpointConfiguration [main] Disabling pdf-to-book
+2024-07-25 12:00:29,818 INFO s.s.S.c.EndpointConfiguration [main] Disabling book-to-pdf
+2024-07-25 12:00:30,237 INFO s.s.S.c.s.InitialSecuritySetup [main] Default admin user created: admin
+2024-07-25 12:00:30,335 INFO s.s.S.c.s.InitialSecuritySetup [main] Internal API user created: STIRLING-PDF-BACKEND-API-USER
+2024-07-25 12:00:30,454 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-25 12:00:30,583 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [main] Adding welcome page: ServletContext resource [/index.html]
+2024-07-25 12:00:30,864 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 12:00:30,906 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a3ef4c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fc26fb1, org.springframework.security.web.context.SecurityContextHolderFilter@7ee96c1c, org.springframework.security.web.header.HeaderWriterFilter@180c785d, org.springframework.web.filter.CorsFilter@362e1181, org.springframework.security.web.authentication.logout.LogoutFilter@17f2e01d, stirling.software.SPDF.config.security.UserAuthenticationFilter@7fdaeb6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e0e1acf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62d59d60, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3746135b, org.springframework.security.web.access.ExceptionTranslationFilter@74e322fd, org.springframework.security.web.access.intercept.AuthorizationFilter@3a9c5f14]
+2024-07-25 12:00:31,583 INFO o.e.j.s.h.C.application [main] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-25 12:00:31,584 INFO o.s.w.s.DispatcherServlet [main] Initializing Servlet 'dispatcherServlet'
+2024-07-25 12:00:31,591 INFO o.s.w.s.DispatcherServlet [main] Completed initialization in 6 ms
+2024-07-25 12:00:31,638 INFO o.e.j.s.AbstractConnector [main] Started ServerConnector@24697504{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-07-25 12:00:31,640 INFO o.s.b.w.e.j.JettyWebServer [main] Jetty started on port 8080 (http/1.1) with context path '/'
+2024-07-25 12:00:31,733 WARN s.s.S.u.FileMonitor [scheduling-1] not monitoring any directory, even the root directory itself: ./pipeline/watchedFolders
+2024-07-25 12:00:31,736 INFO s.s.S.u.FileMonitor [scheduling-1] Registered directory: ./pipeline/watchedFolders
+2024-07-25 12:00:31,758 INFO s.s.S.SPdfApplication [main] Started SPdfApplication in 7.493 seconds (process running for 7.973)
+2024-07-25 12:00:32,783 INFO s.s.S.SPdfApplication [main] Stirling-PDF Started.
+2024-07-25 12:00:32,785 INFO s.s.S.SPdfApplication [main] Navigate to http://localhost:8080
